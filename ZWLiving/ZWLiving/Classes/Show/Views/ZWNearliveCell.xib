@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZWNearliveCell">
+            <rect key="frame" x="0.0" y="0.0" width="161" height="183"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="161" height="183"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nQM-49-bLH">
+                        <rect key="frame" x="0.0" y="0.0" width="161" height="161"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="nQM-49-bLH" secondAttribute="height" id="IMN-Zt-JxR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCZ-3A-vf7">
+                        <rect key="frame" x="0.0" y="161" width="161" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Liv-f9-iq3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="sCZ-3A-vf7" secondAttribute="trailing" id="5KR-Vu-L6V"/>
+                <constraint firstItem="sCZ-3A-vf7" firstAttribute="top" secondItem="nQM-49-bLH" secondAttribute="bottom" id="8MX-oU-c6K"/>
+                <constraint firstAttribute="trailing" secondItem="nQM-49-bLH" secondAttribute="trailing" id="BQT-cE-hkf"/>
+                <constraint firstItem="nQM-49-bLH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QyI-Mg-gVv"/>
+                <constraint firstItem="sCZ-3A-vf7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="YH4-2q-RXW"/>
+                <constraint firstItem="nQM-49-bLH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hrM-7y-UOc"/>
+            </constraints>
+            <size key="customSize" width="161" height="183"/>
+            <connections>
+                <outlet property="distanceLabel" destination="sCZ-3A-vf7" id="upW-lP-Dbt"/>
+                <outlet property="headImageView" destination="nQM-49-bLH" id="6Z0-Rz-pA9"/>
+            </connections>
+            <point key="canvasLocation" x="89.5" y="213.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

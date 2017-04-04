@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51805E3BE3A6D4C97AE37656 /* libPods-ZWLiving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F64A83206B99C43C48A336 /* libPods-ZWLiving.a */; };
+		EE0A89101E8684CF00C48CB6 /* ZWTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A890F1E8684CF00C48CB6 /* ZWTabbarViewController.m */; };
+		EE0A89131E8684E900C48CB6 /* ZWTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89121E8684E900C48CB6 /* ZWTabbar.m */; };
+		EE0A89161E868B9D00C48CB6 /* ZWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89151E868B9D00C48CB6 /* ZWBaseViewController.m */; };
+		EE0A891D1E868C3B00C48CB6 /* ZWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A891C1E868C3B00C48CB6 /* ZWMainViewController.m */; };
+		EE0A89281E868CC000C48CB6 /* ZWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89271E868CC000C48CB6 /* ZWMeViewController.m */; };
+		EE0A892B1E868DC700C48CB6 /* ZWBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A892A1E868DC700C48CB6 /* ZWBaseNavController.m */; };
+		EE0A89601E87994D00C48CB6 /* ZWLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A895F1E87994D00C48CB6 /* ZWLaunchViewController.m */; };
+		EE0A89631E87A58100C48CB6 /* ZWFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89621E87A58100C48CB6 /* ZWFocusViewController.m */; };
+		EE0A89661E87A59100C48CB6 /* ZWHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89651E87A59100C48CB6 /* ZWHotViewController.m */; };
+		EE0A896C1E87AD8900C48CB6 /* ZWMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A896B1E87AD8900C48CB6 /* ZWMainTopView.m */; };
+		EE0A89741E87BD5E00C48CB6 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89711E87BD5E00C48CB6 /* HttpTool.m */; };
+		EE0A89751E87BD5F00C48CB6 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89731E87BD5E00C48CB6 /* UIImageView+SDWebImage.m */; };
+		EE0A89781E87BFF800C48CB6 /* ZWBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89771E87BFF800C48CB6 /* ZWBaseHandler.m */; };
+		EE0A897B1E87C05A00C48CB6 /* ZWLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A897A1E87C05A00C48CB6 /* ZWLiveHandler.m */; };
+		EE0A89801E87C66B00C48CB6 /* ZWCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A897D1E87C66B00C48CB6 /* ZWCreator.m */; };
+		EE0A89811E87C66B00C48CB6 /* ZWLive.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A897F1E87C66B00C48CB6 /* ZWLive.m */; };
+		EE0A89841E87C6DF00C48CB6 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89831E87C6DF00C48CB6 /* MJExtensionConfig.m */; };
+		EE0A898D1E87CB3700C48CB6 /* ZWHotLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89861E87CB3700C48CB6 /* ZWHotLiveCell.m */; };
+		EE0A898E1E87CB3700C48CB6 /* ZWHotLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0A89871E87CB3700C48CB6 /* ZWHotLiveCell.xib */; };
+		EE0A898F1E87CB3700C48CB6 /* SXTMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89891E87CB3700C48CB6 /* SXTMainTopView.m */; };
+		EE0A89931E87D1DA00C48CB6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89921E87D1DA00C48CB6 /* IJKMediaFramework.framework */; };
+		EE0A89951E87D1F900C48CB6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89941E87D1F900C48CB6 /* libz.tbd */; };
+		EE0A89971E87D20500C48CB6 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89961E87D20500C48CB6 /* libbz2.tbd */; };
+		EE0A89991E87D20E00C48CB6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89981E87D20E00C48CB6 /* AudioToolbox.framework */; };
+		EE0A899B1E87D21400C48CB6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A899A1E87D21400C48CB6 /* AVFoundation.framework */; };
+		EE0A899D1E87D21B00C48CB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A899C1E87D21B00C48CB6 /* CoreGraphics.framework */; };
+		EE0A899F1E87D22500C48CB6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A899E1E87D22500C48CB6 /* CoreMedia.framework */; };
+		EE0A89A11E87D22F00C48CB6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89A01E87D22F00C48CB6 /* CoreVideo.framework */; };
+		EE0A89A31E87D23600C48CB6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89A21E87D23600C48CB6 /* MediaPlayer.framework */; };
+		EE0A89A51E87D23F00C48CB6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89A41E87D23F00C48CB6 /* MobileCoreServices.framework */; };
+		EE0A89A71E87D24600C48CB6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89A61E87D24600C48CB6 /* OpenGLES.framework */; };
+		EE0A89A91E87D24D00C48CB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89A81E87D24D00C48CB6 /* QuartzCore.framework */; };
+		EE0A89AB1E87D25500C48CB6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A89AA1E87D25500C48CB6 /* VideoToolbox.framework */; };
+		EE0A89AE1E87D61300C48CB6 /* ZWPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A89AD1E87D61300C48CB6 /* ZWPlayerViewController.m */; };
+		EE27633B1E93D77500AD15A0 /* camra_beauty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763301E93D77500AD15A0 /* camra_beauty@2x.png */; };
+		EE27633C1E93D77500AD15A0 /* camra_beauty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763311E93D77500AD15A0 /* camra_beauty@3x.png */; };
+		EE27633D1E93D77500AD15A0 /* camra_beauty_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763321E93D77500AD15A0 /* camra_beauty_close@2x.png */; };
+		EE27633E1E93D77500AD15A0 /* camra_beauty_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763331E93D77500AD15A0 /* camra_beauty_close@3x.png */; };
+		EE27633F1E93D77500AD15A0 /* camra_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763341E93D77500AD15A0 /* camra_preview@2x.png */; };
+		EE2763401E93D77500AD15A0 /* camra_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763351E93D77500AD15A0 /* camra_preview@3x.png */; };
+		EE2763411E93D77500AD15A0 /* close_preview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763361E93D77500AD15A0 /* close_preview@2x.png */; };
+		EE2763421E93D77500AD15A0 /* close_preview@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763371E93D77500AD15A0 /* close_preview@3x.png */; };
+		EE2763431E93D77500AD15A0 /* ios-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2763381E93D77500AD15A0 /* ios-29x29.png */; };
+		EE2763471E93D86900AD15A0 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2763461E93D86900AD15A0 /* LFLivePreview.m */; };
+		EE27635C1E93E70700AD15A0 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE27634B1E93E70700AD15A0 /* libSocialQQ.a */; };
+		EE27635D1E93E70700AD15A0 /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE27634E1E93E70700AD15A0 /* libSocialSina.a */; };
+		EE27635E1E93E70700AD15A0 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2763511E93E70700AD15A0 /* libSocialWeChat.a */; };
+		EE27635F1E93E70700AD15A0 /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2763541E93E70700AD15A0 /* UMSocialCore.framework */; };
+		EE2763601E93E70700AD15A0 /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2763551E93E70700AD15A0 /* UMSocialNetwork.framework */; };
+		EE2763611E93E70700AD15A0 /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE2763561E93E70700AD15A0 /* UMSocialSDKPromptResources.bundle */; };
+		EE2763621E93E70700AD15A0 /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2763581E93E70700AD15A0 /* libUMSocialLog.a */; };
+		EE2763631E93E70700AD15A0 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE27635A1E93E70700AD15A0 /* UMSocialSDKResources.bundle */; };
+		EE2763641E93E70700AD15A0 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE27635B1E93E70700AD15A0 /* UShareUI.framework */; };
+		EE2763681E93E73600AD15A0 /* ZWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2763661E93E73600AD15A0 /* ZWLoginViewController.m */; };
+		EE2763691E93E73600AD15A0 /* ZWLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2763671E93E73600AD15A0 /* ZWLoginViewController.xib */; };
+		EE27636C1E93E90600AD15A0 /* ZWUserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE27636B1E93E90600AD15A0 /* ZWUserHelper.m */; };
+		EE27636F1E93E9DD00AD15A0 /* AppDelegate+UMeng.m in Sources */ = {isa = PBXBuildFile; fileRef = EE27636E1E93E9DD00AD15A0 /* AppDelegate+UMeng.m */; };
+		EE2763731E93F03600AD15A0 /* ZWMeinfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2763711E93F03600AD15A0 /* ZWMeinfoView.m */; };
+		EE2763741E93F03600AD15A0 /* ZWMeinfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2763721E93F03600AD15A0 /* ZWMeinfoView.xib */; };
+		EE2763771E93F22500AD15A0 /* ZWSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2763761E93F22500AD15A0 /* ZWSetting.m */; };
+		EE677A5D1E8C01970021F5D5 /* ZWNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE677A5B1E8C01970021F5D5 /* ZWNearViewController.m */; };
+		EE677A5E1E8C01970021F5D5 /* ZWNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE677A5C1E8C01970021F5D5 /* ZWNearViewController.xib */; };
+		EE677A671E8C072C0021F5D5 /* ZWNearliveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE677A651E8C072C0021F5D5 /* ZWNearliveCell.m */; };
+		EE677A681E8C072C0021F5D5 /* ZWNearliveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE677A661E8C072C0021F5D5 /* ZWNearliveCell.xib */; };
+		EE677A6B1E8C0C800021F5D5 /* ZWAdvertise.m in Sources */ = {isa = PBXBuildFile; fileRef = EE677A6A1E8C0C800021F5D5 /* ZWAdvertise.m */; };
+		EE677A6F1E8C0D490021F5D5 /* ZWAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE677A6D1E8C0D490021F5D5 /* ZWAdvertiseView.m */; };
+		EE677A701E8C0D490021F5D5 /* ZWAdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE677A6E1E8C0D490021F5D5 /* ZWAdvertiseView.xib */; };
+		EE677A761E8C0EEA0021F5D5 /* ZWCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE677A751E8C0EEA0021F5D5 /* ZWCacheHelper.m */; };
+		EE677A791E8C14AF0021F5D5 /* ZWTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE677A781E8C14AF0021F5D5 /* ZWTimerManager.m */; };
+		EEA2D46E1E8670660021A0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2D46D1E8670660021A0A0 /* main.m */; };
+		EEA2D4791E8670660021A0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA2D4781E8670660021A0A0 /* Assets.xcassets */; };
+		EEA2D4911E8672520021A0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2D48F1E8672520021A0A0 /* AppDelegate.m */; };
+		EEA5B6171E8AC0B700303149 /* ZWLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA5B6151E8AC0B700303149 /* ZWLiveChatViewController.m */; };
+		EEA5B6181E8AC0B700303149 /* ZWLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA5B6161E8AC0B700303149 /* ZWLiveChatViewController.xib */; };
+		EEA5B61B1E8AC44900303149 /* ZWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA5B61A1E8AC44900303149 /* ZWLocationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD15C7A4348D2495D26E866D /* Pods-ZWLiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWLiving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWLiving/Pods-ZWLiving.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F64A83206B99C43C48A336 /* libPods-ZWLiving.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWLiving.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0A890C1E86797700C48CB6 /* ZWPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPrefix.pch; sourceTree = "<group>"; };
+		EE0A890D1E86828100C48CB6 /* ZWMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMacros.h; sourceTree = "<group>"; };
+		EE0A890E1E8684CF00C48CB6 /* ZWTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTabbarViewController.h; sourceTree = "<group>"; };
+		EE0A890F1E8684CF00C48CB6 /* ZWTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTabbarViewController.m; sourceTree = "<group>"; };
+		EE0A89111E8684E900C48CB6 /* ZWTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTabbar.h; sourceTree = "<group>"; };
+		EE0A89121E8684E900C48CB6 /* ZWTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTabbar.m; sourceTree = "<group>"; };
+		EE0A89141E868B9D00C48CB6 /* ZWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBaseViewController.h; sourceTree = "<group>"; };
+		EE0A89151E868B9D00C48CB6 /* ZWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBaseViewController.m; sourceTree = "<group>"; };
+		EE0A891B1E868C3B00C48CB6 /* ZWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMainViewController.h; sourceTree = "<group>"; };
+		EE0A891C1E868C3B00C48CB6 /* ZWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMainViewController.m; sourceTree = "<group>"; };
+		EE0A89261E868CC000C48CB6 /* ZWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMeViewController.h; sourceTree = "<group>"; };
+		EE0A89271E868CC000C48CB6 /* ZWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMeViewController.m; sourceTree = "<group>"; };
+		EE0A89291E868DC700C48CB6 /* ZWBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBaseNavController.h; sourceTree = "<group>"; };
+		EE0A892A1E868DC700C48CB6 /* ZWBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBaseNavController.m; sourceTree = "<group>"; };
+		EE0A895E1E87994D00C48CB6 /* ZWLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLaunchViewController.h; sourceTree = "<group>"; };
+		EE0A895F1E87994D00C48CB6 /* ZWLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLaunchViewController.m; sourceTree = "<group>"; };
+		EE0A89611E87A58100C48CB6 /* ZWFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWFocusViewController.h; sourceTree = "<group>"; };
+		EE0A89621E87A58100C48CB6 /* ZWFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWFocusViewController.m; sourceTree = "<group>"; };
+		EE0A89641E87A59100C48CB6 /* ZWHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHotViewController.h; sourceTree = "<group>"; };
+		EE0A89651E87A59100C48CB6 /* ZWHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHotViewController.m; sourceTree = "<group>"; };
+		EE0A896A1E87AD8900C48CB6 /* ZWMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMainTopView.h; sourceTree = "<group>"; };
+		EE0A896B1E87AD8900C48CB6 /* ZWMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMainTopView.m; sourceTree = "<group>"; };
+		EE0A896D1E87BB9500C48CB6 /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		EE0A89701E87BD5E00C48CB6 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		EE0A89711E87BD5E00C48CB6 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		EE0A89721E87BD5E00C48CB6 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		EE0A89731E87BD5E00C48CB6 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		EE0A89761E87BFF800C48CB6 /* ZWBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBaseHandler.h; sourceTree = "<group>"; };
+		EE0A89771E87BFF800C48CB6 /* ZWBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBaseHandler.m; sourceTree = "<group>"; };
+		EE0A89791E87C05A00C48CB6 /* ZWLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLiveHandler.h; sourceTree = "<group>"; };
+		EE0A897A1E87C05A00C48CB6 /* ZWLiveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLiveHandler.m; sourceTree = "<group>"; };
+		EE0A897C1E87C66B00C48CB6 /* ZWCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCreator.h; sourceTree = "<group>"; };
+		EE0A897D1E87C66B00C48CB6 /* ZWCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCreator.m; sourceTree = "<group>"; };
+		EE0A897E1E87C66B00C48CB6 /* ZWLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLive.h; sourceTree = "<group>"; };
+		EE0A897F1E87C66B00C48CB6 /* ZWLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLive.m; sourceTree = "<group>"; };
+		EE0A89821E87C6DF00C48CB6 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		EE0A89831E87C6DF00C48CB6 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		EE0A89851E87CB3700C48CB6 /* ZWHotLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHotLiveCell.h; sourceTree = "<group>"; };
+		EE0A89861E87CB3700C48CB6 /* ZWHotLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHotLiveCell.m; sourceTree = "<group>"; };
+		EE0A89871E87CB3700C48CB6 /* ZWHotLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWHotLiveCell.xib; sourceTree = "<group>"; };
+		EE0A89881E87CB3700C48CB6 /* SXTMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTMainTopView.h; sourceTree = "<group>"; };
+		EE0A89891E87CB3700C48CB6 /* SXTMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTMainTopView.m; sourceTree = "<group>"; };
+		EE0A89921E87D1DA00C48CB6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		EE0A89941E87D1F900C48CB6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EE0A89961E87D20500C48CB6 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		EE0A89981E87D20E00C48CB6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EE0A899A1E87D21400C48CB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE0A899C1E87D21B00C48CB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE0A899E1E87D22500C48CB6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EE0A89A01E87D22F00C48CB6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EE0A89A21E87D23600C48CB6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EE0A89A41E87D23F00C48CB6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EE0A89A61E87D24600C48CB6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EE0A89A81E87D24D00C48CB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE0A89AA1E87D25500C48CB6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		EE0A89AC1E87D61300C48CB6 /* ZWPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPlayerViewController.h; sourceTree = "<group>"; };
+		EE0A89AD1E87D61300C48CB6 /* ZWPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPlayerViewController.m; sourceTree = "<group>"; };
+		EE2763301E93D77500AD15A0 /* camra_beauty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@2x.png"; sourceTree = "<group>"; };
+		EE2763311E93D77500AD15A0 /* camra_beauty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty@3x.png"; sourceTree = "<group>"; };
+		EE2763321E93D77500AD15A0 /* camra_beauty_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@2x.png"; sourceTree = "<group>"; };
+		EE2763331E93D77500AD15A0 /* camra_beauty_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_beauty_close@3x.png"; sourceTree = "<group>"; };
+		EE2763341E93D77500AD15A0 /* camra_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@2x.png"; sourceTree = "<group>"; };
+		EE2763351E93D77500AD15A0 /* camra_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camra_preview@3x.png"; sourceTree = "<group>"; };
+		EE2763361E93D77500AD15A0 /* close_preview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@2x.png"; sourceTree = "<group>"; };
+		EE2763371E93D77500AD15A0 /* close_preview@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_preview@3x.png"; sourceTree = "<group>"; };
+		EE2763381E93D77500AD15A0 /* ios-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-29x29.png"; sourceTree = "<group>"; };
+		EE2763451E93D86900AD15A0 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		EE2763461E93D86900AD15A0 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		EE27634B1E93E70700AD15A0 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		EE27634C1E93E70700AD15A0 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		EE27634E1E93E70700AD15A0 /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		EE27634F1E93E70700AD15A0 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		EE2763511E93E70700AD15A0 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		EE2763521E93E70700AD15A0 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		EE2763541E93E70700AD15A0 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		EE2763551E93E70700AD15A0 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		EE2763561E93E70700AD15A0 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		EE2763581E93E70700AD15A0 /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
+		EE27635A1E93E70700AD15A0 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		EE27635B1E93E70700AD15A0 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		EE2763651E93E73600AD15A0 /* ZWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLoginViewController.h; sourceTree = "<group>"; };
+		EE2763661E93E73600AD15A0 /* ZWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLoginViewController.m; sourceTree = "<group>"; };
+		EE2763671E93E73600AD15A0 /* ZWLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWLoginViewController.xib; sourceTree = "<group>"; };
+		EE27636A1E93E90600AD15A0 /* ZWUserHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWUserHelper.h; sourceTree = "<group>"; };
+		EE27636B1E93E90600AD15A0 /* ZWUserHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWUserHelper.m; sourceTree = "<group>"; };
+		EE27636D1E93E9DD00AD15A0 /* AppDelegate+UMeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UMeng.h"; sourceTree = "<group>"; };
+		EE27636E1E93E9DD00AD15A0 /* AppDelegate+UMeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UMeng.m"; sourceTree = "<group>"; };
+		EE2763701E93F03600AD15A0 /* ZWMeinfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMeinfoView.h; sourceTree = "<group>"; };
+		EE2763711E93F03600AD15A0 /* ZWMeinfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMeinfoView.m; sourceTree = "<group>"; };
+		EE2763721E93F03600AD15A0 /* ZWMeinfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWMeinfoView.xib; sourceTree = "<group>"; };
+		EE2763751E93F22500AD15A0 /* ZWSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSetting.h; sourceTree = "<group>"; };
+		EE2763761E93F22500AD15A0 /* ZWSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWSetting.m; sourceTree = "<group>"; };
+		EE677A5A1E8C01970021F5D5 /* ZWNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWNearViewController.h; sourceTree = "<group>"; };
+		EE677A5B1E8C01970021F5D5 /* ZWNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWNearViewController.m; sourceTree = "<group>"; };
+		EE677A5C1E8C01970021F5D5 /* ZWNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWNearViewController.xib; sourceTree = "<group>"; };
+		EE677A641E8C072C0021F5D5 /* ZWNearliveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWNearliveCell.h; sourceTree = "<group>"; };
+		EE677A651E8C072C0021F5D5 /* ZWNearliveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWNearliveCell.m; sourceTree = "<group>"; };
+		EE677A661E8C072C0021F5D5 /* ZWNearliveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWNearliveCell.xib; sourceTree = "<group>"; };
+		EE677A691E8C0C800021F5D5 /* ZWAdvertise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAdvertise.h; sourceTree = "<group>"; };
+		EE677A6A1E8C0C800021F5D5 /* ZWAdvertise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAdvertise.m; sourceTree = "<group>"; };
+		EE677A6C1E8C0D490021F5D5 /* ZWAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAdvertiseView.h; sourceTree = "<group>"; };
+		EE677A6D1E8C0D490021F5D5 /* ZWAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAdvertiseView.m; sourceTree = "<group>"; };
+		EE677A6E1E8C0D490021F5D5 /* ZWAdvertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWAdvertiseView.xib; sourceTree = "<group>"; };
+		EE677A741E8C0EEA0021F5D5 /* ZWCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCacheHelper.h; sourceTree = "<group>"; };
+		EE677A751E8C0EEA0021F5D5 /* ZWCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCacheHelper.m; sourceTree = "<group>"; };
+		EE677A771E8C14AF0021F5D5 /* ZWTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTimerManager.h; sourceTree = "<group>"; };
+		EE677A781E8C14AF0021F5D5 /* ZWTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTimerManager.m; sourceTree = "<group>"; };
+		EEA2D4691E8670660021A0A0 /* ZWLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA2D46D1E8670660021A0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEA2D4781E8670660021A0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA2D47D1E8670660021A0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA2D48E1E8672520021A0A0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEA2D48F1E8672520021A0A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEA5B6141E8AC0B700303149 /* ZWLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLiveChatViewController.h; sourceTree = "<group>"; };
+		EEA5B6151E8AC0B700303149 /* ZWLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLiveChatViewController.m; sourceTree = "<group>"; };
+		EEA5B6161E8AC0B700303149 /* ZWLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWLiveChatViewController.xib; sourceTree = "<group>"; };
+		EEA5B6191E8AC44900303149 /* ZWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLocationManager.h; sourceTree = "<group>"; };
+		EEA5B61A1E8AC44900303149 /* ZWLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLocationManager.m; sourceTree = "<group>"; };
+		FE0B04EE0C7B0C41D6B7C139 /* Pods-ZWLiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWLiving.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWLiving/Pods-ZWLiving.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA2D4661E8670660021A0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE27635C1E93E70700AD15A0 /* libSocialQQ.a in Frameworks */,
+				EE0A89AB1E87D25500C48CB6 /* VideoToolbox.framework in Frameworks */,
+				EE0A89A91E87D24D00C48CB6 /* QuartzCore.framework in Frameworks */,
+				EE0A89A71E87D24600C48CB6 /* OpenGLES.framework in Frameworks */,
+				EE0A89A51E87D23F00C48CB6 /* MobileCoreServices.framework in Frameworks */,
+				EE0A89A31E87D23600C48CB6 /* MediaPlayer.framework in Frameworks */,
+				EE0A89A11E87D22F00C48CB6 /* CoreVideo.framework in Frameworks */,
+				EE2763601E93E70700AD15A0 /* UMSocialNetwork.framework in Frameworks */,
+				EE0A899F1E87D22500C48CB6 /* CoreMedia.framework in Frameworks */,
+				EE2763621E93E70700AD15A0 /* libUMSocialLog.a in Frameworks */,
+				EE0A899D1E87D21B00C48CB6 /* CoreGraphics.framework in Frameworks */,
+				EE0A899B1E87D21400C48CB6 /* AVFoundation.framework in Frameworks */,
+				EE0A89991E87D20E00C48CB6 /* AudioToolbox.framework in Frameworks */,
+				EE27635D1E93E70700AD15A0 /* libSocialSina.a in Frameworks */,
+				EE0A89971E87D20500C48CB6 /* libbz2.tbd in Frameworks */,
+				EE0A89951E87D1F900C48CB6 /* libz.tbd in Frameworks */,
+				51805E3BE3A6D4C97AE37656 /* libPods-ZWLiving.a in Frameworks */,
+				EE2763641E93E70700AD15A0 /* UShareUI.framework in Frameworks */,
+				EE0A89931E87D1DA00C48CB6 /* IJKMediaFramework.framework in Frameworks */,
+				EE27635F1E93E70700AD15A0 /* UMSocialCore.framework in Frameworks */,
+				EE27635E1E93E70700AD15A0 /* libSocialWeChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79296A00770B44F64102DDAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A89AA1E87D25500C48CB6 /* VideoToolbox.framework */,
+				EE0A89A81E87D24D00C48CB6 /* QuartzCore.framework */,
+				EE0A89A61E87D24600C48CB6 /* OpenGLES.framework */,
+				EE0A89A41E87D23F00C48CB6 /* MobileCoreServices.framework */,
+				EE0A89A21E87D23600C48CB6 /* MediaPlayer.framework */,
+				EE0A89A01E87D22F00C48CB6 /* CoreVideo.framework */,
+				EE0A899E1E87D22500C48CB6 /* CoreMedia.framework */,
+				EE0A899C1E87D21B00C48CB6 /* CoreGraphics.framework */,
+				EE0A899A1E87D21400C48CB6 /* AVFoundation.framework */,
+				EE0A89981E87D20E00C48CB6 /* AudioToolbox.framework */,
+				EE0A89961E87D20500C48CB6 /* libbz2.tbd */,
+				EE0A89941E87D1F900C48CB6 /* libz.tbd */,
+				EE0A89921E87D1DA00C48CB6 /* IJKMediaFramework.framework */,
+				E1F64A83206B99C43C48A336 /* libPods-ZWLiving.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C9A35F69CC08FC27A6CB5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD15C7A4348D2495D26E866D /* Pods-ZWLiving.debug.xcconfig */,
+				FE0B04EE0C7B0C41D6B7C139 /* Pods-ZWLiving.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE0A89171E868BAA00C48CB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A897C1E87C66B00C48CB6 /* ZWCreator.h */,
+				EE0A897D1E87C66B00C48CB6 /* ZWCreator.m */,
+				EE0A897E1E87C66B00C48CB6 /* ZWLive.h */,
+				EE0A897F1E87C66B00C48CB6 /* ZWLive.m */,
+				EE677A691E8C0C800021F5D5 /* ZWAdvertise.h */,
+				EE677A6A1E8C0C800021F5D5 /* ZWAdvertise.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE0A89181E868BE800C48CB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A891B1E868C3B00C48CB6 /* ZWMainViewController.h */,
+				EE0A891C1E868C3B00C48CB6 /* ZWMainViewController.m */,
+				EE0A89611E87A58100C48CB6 /* ZWFocusViewController.h */,
+				EE0A89621E87A58100C48CB6 /* ZWFocusViewController.m */,
+				EE0A89641E87A59100C48CB6 /* ZWHotViewController.h */,
+				EE0A89651E87A59100C48CB6 /* ZWHotViewController.m */,
+				EE677A5A1E8C01970021F5D5 /* ZWNearViewController.h */,
+				EE677A5B1E8C01970021F5D5 /* ZWNearViewController.m */,
+				EE677A5C1E8C01970021F5D5 /* ZWNearViewController.xib */,
+				EE0A89AC1E87D61300C48CB6 /* ZWPlayerViewController.h */,
+				EE0A89AD1E87D61300C48CB6 /* ZWPlayerViewController.m */,
+				EEA5B6141E8AC0B700303149 /* ZWLiveChatViewController.h */,
+				EEA5B6151E8AC0B700303149 /* ZWLiveChatViewController.m */,
+				EEA5B6161E8AC0B700303149 /* ZWLiveChatViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE0A89191E868BFE00C48CB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A89851E87CB3700C48CB6 /* ZWHotLiveCell.h */,
+				EE0A89861E87CB3700C48CB6 /* ZWHotLiveCell.m */,
+				EE0A89871E87CB3700C48CB6 /* ZWHotLiveCell.xib */,
+				EE0A89881E87CB3700C48CB6 /* SXTMainTopView.h */,
+				EE0A89891E87CB3700C48CB6 /* SXTMainTopView.m */,
+				EE677A641E8C072C0021F5D5 /* ZWNearliveCell.h */,
+				EE677A651E8C072C0021F5D5 /* ZWNearliveCell.m */,
+				EE677A661E8C072C0021F5D5 /* ZWNearliveCell.xib */,
+				EE0A896A1E87AD8900C48CB6 /* ZWMainTopView.h */,
+				EE0A896B1E87AD8900C48CB6 /* ZWMainTopView.m */,
+				EE677A6C1E8C0D490021F5D5 /* ZWAdvertiseView.h */,
+				EE677A6D1E8C0D490021F5D5 /* ZWAdvertiseView.m */,
+				EE677A6E1E8C0D490021F5D5 /* ZWAdvertiseView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0A891A1E868C0E00C48CB6 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A89791E87C05A00C48CB6 /* ZWLiveHandler.h */,
+				EE0A897A1E87C05A00C48CB6 /* ZWLiveHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		EE0A891E1E868C9B00C48CB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A89261E868CC000C48CB6 /* ZWMeViewController.h */,
+				EE0A89271E868CC000C48CB6 /* ZWMeViewController.m */,
+				EE2763651E93E73600AD15A0 /* ZWLoginViewController.h */,
+				EE2763661E93E73600AD15A0 /* ZWLoginViewController.m */,
+				EE2763671E93E73600AD15A0 /* ZWLoginViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE0A891F1E868C9B00C48CB6 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		EE0A89201E868C9B00C48CB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763751E93F22500AD15A0 /* ZWSetting.h */,
+				EE2763761E93F22500AD15A0 /* ZWSetting.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE0A89211E868C9B00C48CB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763701E93F03600AD15A0 /* ZWMeinfoView.h */,
+				EE2763711E93F03600AD15A0 /* ZWMeinfoView.m */,
+				EE2763721E93F03600AD15A0 /* ZWMeinfoView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0A89221E868CAA00C48CB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE0A89231E868CAA00C48CB6 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		EE0A89241E868CAA00C48CB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE0A89251E868CAA00C48CB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763451E93D86900AD15A0 /* LFLivePreview.h */,
+				EE2763461E93D86900AD15A0 /* LFLivePreview.m */,
+				EE27632F1E93D77500AD15A0 /* images */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE0A895A1E87993100C48CB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A895E1E87994D00C48CB6 /* ZWLaunchViewController.h */,
+				EE0A895F1E87994D00C48CB6 /* ZWLaunchViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE0A895B1E87993100C48CB6 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		EE0A895C1E87993100C48CB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE0A895D1E87993100C48CB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE27632F1E93D77500AD15A0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763301E93D77500AD15A0 /* camra_beauty@2x.png */,
+				EE2763311E93D77500AD15A0 /* camra_beauty@3x.png */,
+				EE2763321E93D77500AD15A0 /* camra_beauty_close@2x.png */,
+				EE2763331E93D77500AD15A0 /* camra_beauty_close@3x.png */,
+				EE2763341E93D77500AD15A0 /* camra_preview@2x.png */,
+				EE2763351E93D77500AD15A0 /* camra_preview@3x.png */,
+				EE2763361E93D77500AD15A0 /* close_preview@2x.png */,
+				EE2763371E93D77500AD15A0 /* close_preview@3x.png */,
+				EE2763381E93D77500AD15A0 /* ios-29x29.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EE2763481E93E70700AD15A0 /* UMSocial */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763491E93E70700AD15A0 /* SocialLibraries */,
+				EE2763531E93E70700AD15A0 /* UMSocialSDK */,
+				EE2763571E93E70700AD15A0 /* UMSocialSDKPlugin */,
+				EE2763591E93E70700AD15A0 /* UMSocialUI */,
+			);
+			path = UMSocial;
+			sourceTree = "<group>";
+		};
+		EE2763491E93E70700AD15A0 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE27634A1E93E70700AD15A0 /* QQ */,
+				EE27634D1E93E70700AD15A0 /* Sina */,
+				EE2763501E93E70700AD15A0 /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		EE27634A1E93E70700AD15A0 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				EE27634B1E93E70700AD15A0 /* libSocialQQ.a */,
+				EE27634C1E93E70700AD15A0 /* UMSocialQQHandler.h */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		EE27634D1E93E70700AD15A0 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				EE27634E1E93E70700AD15A0 /* libSocialSina.a */,
+				EE27634F1E93E70700AD15A0 /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		EE2763501E93E70700AD15A0 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763511E93E70700AD15A0 /* libSocialWeChat.a */,
+				EE2763521E93E70700AD15A0 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		EE2763531E93E70700AD15A0 /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763541E93E70700AD15A0 /* UMSocialCore.framework */,
+				EE2763551E93E70700AD15A0 /* UMSocialNetwork.framework */,
+				EE2763561E93E70700AD15A0 /* UMSocialSDKPromptResources.bundle */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		EE2763571E93E70700AD15A0 /* UMSocialSDKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763581E93E70700AD15A0 /* libUMSocialLog.a */,
+			);
+			path = UMSocialSDKPlugin;
+			sourceTree = "<group>";
+		};
+		EE2763591E93E70700AD15A0 /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				EE27635A1E93E70700AD15A0 /* UMSocialSDKResources.bundle */,
+				EE27635B1E93E70700AD15A0 /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		EEA2D4601E8670660021A0A0 = {
+			isa = PBXGroup;
+			children = (
+				EEA2D46B1E8670660021A0A0 /* ZWLiving */,
+				EEA2D46A1E8670660021A0A0 /* Products */,
+				D2C9A35F69CC08FC27A6CB5C /* Pods */,
+				79296A00770B44F64102DDAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA2D46A1E8670660021A0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2D4691E8670660021A0A0 /* ZWLiving.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA2D46B1E8670660021A0A0 /* ZWLiving */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2D4831E8672520021A0A0 /* Classes */,
+				EEA2D46C1E8670660021A0A0 /* Supporting Files */,
+			);
+			path = ZWLiving;
+			sourceTree = "<group>";
+		};
+		EEA2D46C1E8670660021A0A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2D4781E8670660021A0A0 /* Assets.xcassets */,
+				EEA2D47D1E8670660021A0A0 /* Info.plist */,
+				EEA2D46D1E8670660021A0A0 /* main.m */,
+				EE0A890C1E86797700C48CB6 /* ZWPrefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEA2D4831E8672520021A0A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2D4841E8672520021A0A0 /* Bae */,
+				EEA2D4851E8672520021A0A0 /* Helper */,
+				EEA2D4881E8672520021A0A0 /* Launch */,
+				EEA2D4891E8672520021A0A0 /* Lib */,
+				EEA2D48A1E8672520021A0A0 /* Live */,
+				EEA2D48B1E8672520021A0A0 /* Me */,
+				EEA2D48C1E8672520021A0A0 /* Network */,
+				EEA2D48D1E8672520021A0A0 /* Other */,
+				EEA2D4901E8672520021A0A0 /* Show */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EEA2D4841E8672520021A0A0 /* Bae */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A890E1E8684CF00C48CB6 /* ZWTabbarViewController.h */,
+				EE0A890F1E8684CF00C48CB6 /* ZWTabbarViewController.m */,
+				EE0A89111E8684E900C48CB6 /* ZWTabbar.h */,
+				EE0A89121E8684E900C48CB6 /* ZWTabbar.m */,
+				EE0A89141E868B9D00C48CB6 /* ZWBaseViewController.h */,
+				EE0A89151E868B9D00C48CB6 /* ZWBaseViewController.m */,
+				EE0A89291E868DC700C48CB6 /* ZWBaseNavController.h */,
+				EE0A892A1E868DC700C48CB6 /* ZWBaseNavController.m */,
+				EE0A89761E87BFF800C48CB6 /* ZWBaseHandler.h */,
+				EE0A89771E87BFF800C48CB6 /* ZWBaseHandler.m */,
+			);
+			path = Bae;
+			sourceTree = "<group>";
+		};
+		EEA2D4851E8672520021A0A0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2D4861E8672520021A0A0 /* Category */,
+				EEA2D4871E8672520021A0A0 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EEA2D4861E8672520021A0A0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE27636D1E93E9DD00AD15A0 /* AppDelegate+UMeng.h */,
+				EE27636E1E93E9DD00AD15A0 /* AppDelegate+UMeng.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EEA2D4871E8672520021A0A0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EEA5B6191E8AC44900303149 /* ZWLocationManager.h */,
+				EEA5B61A1E8AC44900303149 /* ZWLocationManager.m */,
+				EE677A741E8C0EEA0021F5D5 /* ZWCacheHelper.h */,
+				EE677A751E8C0EEA0021F5D5 /* ZWCacheHelper.m */,
+				EE677A771E8C14AF0021F5D5 /* ZWTimerManager.h */,
+				EE677A781E8C14AF0021F5D5 /* ZWTimerManager.m */,
+				EE27636A1E93E90600AD15A0 /* ZWUserHelper.h */,
+				EE27636B1E93E90600AD15A0 /* ZWUserHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EEA2D4881E8672520021A0A0 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A895A1E87993100C48CB6 /* Controllers */,
+				EE0A895B1E87993100C48CB6 /* Handler */,
+				EE0A895C1E87993100C48CB6 /* Models */,
+				EE0A895D1E87993100C48CB6 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		EEA2D4891E8672520021A0A0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EE2763481E93E70700AD15A0 /* UMSocial */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EEA2D48A1E8672520021A0A0 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A89221E868CAA00C48CB6 /* Controllers */,
+				EE0A89231E868CAA00C48CB6 /* Handler */,
+				EE0A89241E868CAA00C48CB6 /* Models */,
+				EE0A89251E868CAA00C48CB6 /* Views */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		EEA2D48B1E8672520021A0A0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A891E1E868C9B00C48CB6 /* Controllers */,
+				EE0A891F1E868C9B00C48CB6 /* Handler */,
+				EE0A89201E868C9B00C48CB6 /* Models */,
+				EE0A89211E868C9B00C48CB6 /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		EEA2D48C1E8672520021A0A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A89701E87BD5E00C48CB6 /* HttpTool.h */,
+				EE0A89711E87BD5E00C48CB6 /* HttpTool.m */,
+				EE0A89721E87BD5E00C48CB6 /* UIImageView+SDWebImage.h */,
+				EE0A89731E87BD5E00C48CB6 /* UIImageView+SDWebImage.m */,
+				EE0A896D1E87BB9500C48CB6 /* APIConfig.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EEA2D48D1E8672520021A0A0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2D48E1E8672520021A0A0 /* AppDelegate.h */,
+				EEA2D48F1E8672520021A0A0 /* AppDelegate.m */,
+				EE0A890D1E86828100C48CB6 /* ZWMacros.h */,
+				EE0A89821E87C6DF00C48CB6 /* MJExtensionConfig.h */,
+				EE0A89831E87C6DF00C48CB6 /* MJExtensionConfig.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EEA2D4901E8672520021A0A0 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A891A1E868C0E00C48CB6 /* Handler */,
+				EE0A89191E868BFE00C48CB6 /* Views */,
+				EE0A89181E868BE800C48CB6 /* Controllers */,
+				EE0A89171E868BAA00C48CB6 /* Models */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA2D4681E8670660021A0A0 /* ZWLiving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA2D4801E8670660021A0A0 /* Build configuration list for PBXNativeTarget "ZWLiving" */;
+			buildPhases = (
+				0F282EAFE1D2F837DB113004 /* [CP] Check Pods Manifest.lock */,
+				EEA2D4651E8670660021A0A0 /* Sources */,
+				EEA2D4661E8670660021A0A0 /* Frameworks */,
+				EEA2D4671E8670660021A0A0 /* Resources */,
+				1A8A1A611D4B9B79E6356CD6 /* [CP] Embed Pods Frameworks */,
+				DB44477CD68D8EFBD6AEE461 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWLiving;
+			productName = ZWLiving;
+			productReference = EEA2D4691E8670660021A0A0 /* ZWLiving.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA2D4611E8670660021A0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "君安信（北京）科技有限公司";
+				TargetAttributes = {
+					EEA2D4681E8670660021A0A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86GKVK2A2T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEA2D4641E8670660021A0A0 /* Build configuration list for PBXProject "ZWLiving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA2D4601E8670660021A0A0;
+			productRefGroup = EEA2D46A1E8670660021A0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA2D4681E8670660021A0A0 /* ZWLiving */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA2D4671E8670660021A0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA2D4791E8670660021A0A0 /* Assets.xcassets in Resources */,
+				EEA5B6181E8AC0B700303149 /* ZWLiveChatViewController.xib in Resources */,
+				EE2763741E93F03600AD15A0 /* ZWMeinfoView.xib in Resources */,
+				EE2763691E93E73600AD15A0 /* ZWLoginViewController.xib in Resources */,
+				EE2763631E93E70700AD15A0 /* UMSocialSDKResources.bundle in Resources */,
+				EE0A898E1E87CB3700C48CB6 /* ZWHotLiveCell.xib in Resources */,
+				EE677A5E1E8C01970021F5D5 /* ZWNearViewController.xib in Resources */,
+				EE677A701E8C0D490021F5D5 /* ZWAdvertiseView.xib in Resources */,
+				EE27633E1E93D77500AD15A0 /* camra_beauty_close@3x.png in Resources */,
+				EE2763431E93D77500AD15A0 /* ios-29x29.png in Resources */,
+				EE27633B1E93D77500AD15A0 /* camra_beauty@2x.png in Resources */,
+				EE2763421E93D77500AD15A0 /* close_preview@3x.png in Resources */,
+				EE2763401E93D77500AD15A0 /* camra_preview@3x.png in Resources */,
+				EE2763411E93D77500AD15A0 /* close_preview@2x.png in Resources */,
+				EE27633D1E93D77500AD15A0 /* camra_beauty_close@2x.png in Resources */,
+				EE27633C1E93D77500AD15A0 /* camra_beauty@3x.png in Resources */,
+				EE27633F1E93D77500AD15A0 /* camra_preview@2x.png in Resources */,
+				EE677A681E8C072C0021F5D5 /* ZWNearliveCell.xib in Resources */,
+				EE2763611E93E70700AD15A0 /* UMSocialSDKPromptResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F282EAFE1D2F837DB113004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8A1A611D4B9B79E6356CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWLiving/Pods-ZWLiving-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB44477CD68D8EFBD6AEE461 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWLiving/Pods-ZWLiving-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA2D4651E8670660021A0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2763771E93F22500AD15A0 /* ZWSetting.m in Sources */,
+				EE677A5D1E8C01970021F5D5 /* ZWNearViewController.m in Sources */,
+				EE0A89601E87994D00C48CB6 /* ZWLaunchViewController.m in Sources */,
+				EE0A897B1E87C05A00C48CB6 /* ZWLiveHandler.m in Sources */,
+				EE677A6B1E8C0C800021F5D5 /* ZWAdvertise.m in Sources */,
+				EE2763731E93F03600AD15A0 /* ZWMeinfoView.m in Sources */,
+				EE0A891D1E868C3B00C48CB6 /* ZWMainViewController.m in Sources */,
+				EE0A89631E87A58100C48CB6 /* ZWFocusViewController.m in Sources */,
+				EE2763471E93D86900AD15A0 /* LFLivePreview.m in Sources */,
+				EE677A791E8C14AF0021F5D5 /* ZWTimerManager.m in Sources */,
+				EE0A89661E87A59100C48CB6 /* ZWHotViewController.m in Sources */,
+				EE677A671E8C072C0021F5D5 /* ZWNearliveCell.m in Sources */,
+				EE2763681E93E73600AD15A0 /* ZWLoginViewController.m in Sources */,
+				EE0A89781E87BFF800C48CB6 /* ZWBaseHandler.m in Sources */,
+				EE0A896C1E87AD8900C48CB6 /* ZWMainTopView.m in Sources */,
+				EE0A89751E87BD5F00C48CB6 /* UIImageView+SDWebImage.m in Sources */,
+				EE0A89841E87C6DF00C48CB6 /* MJExtensionConfig.m in Sources */,
+				EE0A898D1E87CB3700C48CB6 /* ZWHotLiveCell.m in Sources */,
+				EEA2D4911E8672520021A0A0 /* AppDelegate.m in Sources */,
+				EE677A6F1E8C0D490021F5D5 /* ZWAdvertiseView.m in Sources */,
+				EE0A89161E868B9D00C48CB6 /* ZWBaseViewController.m in Sources */,
+				EE0A89801E87C66B00C48CB6 /* ZWCreator.m in Sources */,
+				EE0A89101E8684CF00C48CB6 /* ZWTabbarViewController.m in Sources */,
+				EE27636F1E93E9DD00AD15A0 /* AppDelegate+UMeng.m in Sources */,
+				EE0A89811E87C66B00C48CB6 /* ZWLive.m in Sources */,
+				EE0A89131E8684E900C48CB6 /* ZWTabbar.m in Sources */,
+				EE677A761E8C0EEA0021F5D5 /* ZWCacheHelper.m in Sources */,
+				EE27636C1E93E90600AD15A0 /* ZWUserHelper.m in Sources */,
+				EE0A898F1E87CB3700C48CB6 /* SXTMainTopView.m in Sources */,
+				EEA5B6171E8AC0B700303149 /* ZWLiveChatViewController.m in Sources */,
+				EE0A892B1E868DC700C48CB6 /* ZWBaseNavController.m in Sources */,
+				EE0A89281E868CC000C48CB6 /* ZWMeViewController.m in Sources */,
+				EEA2D46E1E8670660021A0A0 /* main.m in Sources */,
+				EE0A89741E87BD5E00C48CB6 /* HttpTool.m in Sources */,
+				EE0A89AE1E87D61300C48CB6 /* ZWPlayerViewController.m in Sources */,
+				EEA5B61B1E8AC44900303149 /* ZWLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEA2D47E1E8670660021A0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEA2D47F1E8670660021A0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA2D4811E8670660021A0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD15C7A4348D2495D26E866D /* Pods-ZWLiving.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 86GKVK2A2T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/UMSocialUI",
+				);
+				GCC_PREFIX_HEADER = ZWLiving/ZWPrefix.pch;
+				INFOPLIST_FILE = ZWLiving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/UMSocialSDKPlugin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = limin.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEA2D4821E8670660021A0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0B04EE0C7B0C41D6B7C139 /* Pods-ZWLiving.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 86GKVK2A2T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/UMSocialUI",
+				);
+				GCC_PREFIX_HEADER = ZWLiving/ZWPrefix.pch;
+				INFOPLIST_FILE = ZWLiving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/ZWLiving/Classes/Lib/UMSocial/UMSocialSDKPlugin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = limin.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA2D4641E8670660021A0A0 /* Build configuration list for PBXProject "ZWLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA2D47E1E8670660021A0A0 /* Debug */,
+				EEA2D47F1E8670660021A0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA2D4801E8670660021A0A0 /* Build configuration list for PBXNativeTarget "ZWLiving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA2D4811E8670660021A0A0 /* Debug */,
+				EEA2D4821E8670660021A0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA2D4611E8670660021A0A0 /* Project object */;
+}
